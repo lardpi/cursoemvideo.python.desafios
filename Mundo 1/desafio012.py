@@ -1,0 +1,5 @@
+print('APLICADOR DE DESCONTO')
+preco = float(input('Digite o preço do produto: R$ '))
+desconto = int(input('Digite o percentual de desconto desejado: '))
+novopreco = preco-preco*(desconto/100)
+print('O preço de \033[4mR$ {:.2f}\033[m com \033[4m{}%\033[m de desconto fica \033[1mR$ {:.2f}\033[m.'.format(preco,desconto,novopreco))

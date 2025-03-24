@@ -1,0 +1,5 @@
+frase = str(input('Digite uma frase: ')).upper().strip()
+qtA = frase.count('A')
+primeiroA = frase.find('A')
+ultimoA = frase.rfind('A')
+print('A frase possui a letra A {} vezes, sendo a primeira na posição {} e a última na posição {}.'.format(qtA,primeiroA,ultimoA))
