@@ -14,8 +14,8 @@ print('Pensarei em um número.')
 for c in range(0,2):
     print('Pensando...')
     time.sleep(1)
-print('PENSEI!\n')
 npens = random.randrange(0,10)
+print('PENSEI!\n')
 print('Agora, dize-me: que número está em meu pensamento?')
 nsug = int(input('Eu acho que é '))
 while nsug != npens:
